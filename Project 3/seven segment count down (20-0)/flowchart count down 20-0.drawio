@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="R-byt99G__hK5AGeX6xj">
+    <mxGraphModel dx="794" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rnvGUxwilZq-4Ue1cnWX-1" value="Mulai" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnvGUxwilZq-4Ue1cnWX-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="110" as="sourcePoint" />
+            <mxPoint x="413" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnvGUxwilZq-4Ue1cnWX-3" value="Mengatur penghitung 20" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="180" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnvGUxwilZq-4Ue1cnWX-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="250" as="sourcePoint" />
+            <mxPoint x="413" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="413" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnvGUxwilZq-4Ue1cnWX-5" value="Menunjukan nilai penghitung" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnvGUxwilZq-4Ue1cnWX-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="rnvGUxwilZq-4Ue1cnWX-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="380" as="sourcePoint" />
+            <mxPoint x="414" y="440.66668701171875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnvGUxwilZq-4Ue1cnWX-7" value="Jika counter &amp;gt;0 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="430" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rnvGUxwilZq-4Ue1cnWX-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="470" as="sourcePoint" />
+            <mxPoint x="580" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnvGUxwilZq-4Ue1cnWX-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414.5" y="525" as="sourcePoint" />
+            <mxPoint x="414.5" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnvGUxwilZq-4Ue1cnWX-10" value="TIDAK&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="514" y="440" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rnvGUxwilZq-4Ue1cnWX-12" value="IYA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="528" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rnvGUxwilZq-4Ue1cnWX-13" value="Lanjut ke langkah 5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnvGUxwilZq-4Ue1cnWX-15" value="Lanjut ke langkah 6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="341" y="600" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnvGUxwilZq-4Ue1cnWX-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="rnvGUxwilZq-4Ue1cnWX-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414.5" y="670" as="sourcePoint" />
+            <mxPoint x="414.5" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnvGUxwilZq-4Ue1cnWX-17" value="Kurangi 1 dari counter / penghitung, lalu kembali ke langkah 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="720" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnvGUxwilZq-4Ue1cnWX-18" value="Selesai" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnvGUxwilZq-4Ue1cnWX-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="800" as="sourcePoint" />
+            <mxPoint x="420" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
