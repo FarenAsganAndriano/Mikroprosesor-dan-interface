@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="wIL4QZO8b2mAC3TQUbmw">
+    <mxGraphModel dx="794" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-1" value="Mulai" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="1wGuhlJPRhHAfKapVR4Z-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="120" as="sourcePoint" />
+            <mxPoint x="414" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-3" value="Pilih pin untuk tombot input, dan lampu lalu lintas untuk output" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="249" y="180" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="1wGuhlJPRhHAfKapVR4Z-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="250" as="sourcePoint" />
+            <mxPoint x="413" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-5" value="Baca status tombol&amp;nbsp;&lt;div&gt;(apakah tombol ditekan atau tidak)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="1wGuhlJPRhHAfKapVR4Z-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="380" as="sourcePoint" />
+            <mxPoint x="413" y="442.6666564941406" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-7" value="Apakah tombol ditekan" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="440" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="479.5" as="sourcePoint" />
+            <mxPoint x="550" y="479.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="1wGuhlJPRhHAfKapVR4Z-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414.5" y="530" as="sourcePoint" />
+            <mxPoint x="414.5" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-10" value="Mengubah lampu dari kuning ke merah&lt;div&gt;(Tunggu)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="590" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-11" value="Tetap dalam kondisi lampu hijau berkedip&lt;div&gt;(Jalan Normal)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="1wGuhlJPRhHAfKapVR4Z-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="660" as="sourcePoint" />
+            <mxPoint x="414" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-13" value="Tunggu selama 2 detik" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="720" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="1wGuhlJPRhHAfKapVR4Z-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414.5" y="790" as="sourcePoint" />
+            <mxPoint x="414.5" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-16" value="Mengubah lampu dari kuning ke merah&lt;div&gt;(Stop)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="840" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="900" as="sourcePoint" />
+            <mxPoint x="414" y="961.3333740234375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-18" value="Tunggu selama 20 detik" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="970" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="1wGuhlJPRhHAfKapVR4Z-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="1040" as="sourcePoint" />
+            <mxPoint x="414" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-20" value="Kembali ke langkah 4&amp;nbsp;&lt;div&gt;( Kembali ke Hijau )&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1109" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="1wGuhlJPRhHAfKapVR4Z-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="1180" as="sourcePoint" />
+            <mxPoint x="414" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-22" value="Selesai" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-23" value="TIDAK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1wGuhlJPRhHAfKapVR4Z-24" value="IYA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="540" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
