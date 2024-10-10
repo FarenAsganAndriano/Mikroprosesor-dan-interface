@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="vCSCZh8C9NwJO_vJk4N4">
+    <mxGraphModel dx="794" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zDib-jkIAVzIBd4tZ3AO-1" value="Mulai" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="199" y="20" width="62" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="zDib-jkIAVzIBd4tZ3AO-2" value="Setup" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="104" width="100" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="zDib-jkIAVzIBd4tZ3AO-3" value="Inisialisasi Serial Monitor 9600" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="112" y="202" width="237" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="zDib-jkIAVzIBd4tZ3AO-4" value="Ulangi Loop" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="158" y="319" width="144" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="zDib-jkIAVzIBd4tZ3AO-6" value="Tampilkan nilai di Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="32" y="534" width="232" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="zDib-jkIAVzIBd4tZ3AO-7" value="Tunggu 100ms" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="650" width="160" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="zDib-jkIAVzIBd4tZ3AO-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="zDib-jkIAVzIBd4tZ3AO-1" target="zDib-jkIAVzIBd4tZ3AO-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zDib-jkIAVzIBd4tZ3AO-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="zDib-jkIAVzIBd4tZ3AO-2" target="zDib-jkIAVzIBd4tZ3AO-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zDib-jkIAVzIBd4tZ3AO-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="zDib-jkIAVzIBd4tZ3AO-3" target="zDib-jkIAVzIBd4tZ3AO-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zDib-jkIAVzIBd4tZ3AO-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.25;entryY=0;rounded=0;" edge="1" parent="1" source="zDib-jkIAVzIBd4tZ3AO-6" target="zDib-jkIAVzIBd4tZ3AO-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="148" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zDib-jkIAVzIBd4tZ3AO-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=0;entryX=0.78;entryY=0.99;rounded=0;" edge="1" parent="1" source="zDib-jkIAVzIBd4tZ3AO-7" target="zDib-jkIAVzIBd4tZ3AO-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="312" y="625" />
+              <mxPoint x="312" y="392" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zDib-jkIAVzIBd4tZ3AO-15" value="Baca nilai potensiometer di A0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="420" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zDib-jkIAVzIBd4tZ3AO-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.455;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="zDib-jkIAVzIBd4tZ3AO-4" target="zDib-jkIAVzIBd4tZ3AO-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="390" as="sourcePoint" />
+            <mxPoint x="130" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zDib-jkIAVzIBd4tZ3AO-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.42;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zDib-jkIAVzIBd4tZ3AO-15" target="zDib-jkIAVzIBd4tZ3AO-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="520" as="sourcePoint" />
+            <mxPoint x="140" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

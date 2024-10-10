@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="E7IVIjNaZEyb_2pa9vus">
+    <mxGraphModel dx="794" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3_ii5RLycROyvTj4CnVb-1" value="Mulai" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="199" y="20" width="62" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3_ii5RLycROyvTj4CnVb-2" value="Setup" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="104" width="100" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="3_ii5RLycROyvTj4CnVb-3" value="Ulangi Loop" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="158" y="202" width="144" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="3_ii5RLycROyvTj4CnVb-5" value="Kalkulasi kecerahan LED" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="32" y="417" width="234" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="3_ii5RLycROyvTj4CnVb-6" value="Atur LED menggunakan PWM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="36" y="516" width="225" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="3_ii5RLycROyvTj4CnVb-7" value="Tunggu 10ms" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="154" y="632" width="152" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="3_ii5RLycROyvTj4CnVb-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="3_ii5RLycROyvTj4CnVb-1" target="3_ii5RLycROyvTj4CnVb-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_ii5RLycROyvTj4CnVb-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="3_ii5RLycROyvTj4CnVb-2" target="3_ii5RLycROyvTj4CnVb-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_ii5RLycROyvTj4CnVb-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="3_ii5RLycROyvTj4CnVb-5" target="3_ii5RLycROyvTj4CnVb-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_ii5RLycROyvTj4CnVb-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.24;entryY=0;rounded=0;" edge="1" parent="1" source="3_ii5RLycROyvTj4CnVb-6" target="3_ii5RLycROyvTj4CnVb-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="148" y="607" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_ii5RLycROyvTj4CnVb-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.77;exitY=0;entryX=0.78;entryY=1;rounded=0;" edge="1" parent="1" source="3_ii5RLycROyvTj4CnVb-7" target="3_ii5RLycROyvTj4CnVb-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="312" y="607" />
+              <mxPoint x="312" y="276" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_ii5RLycROyvTj4CnVb-15" value="Baca nilai potensiometer di A0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3_ii5RLycROyvTj4CnVb-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.45;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3_ii5RLycROyvTj4CnVb-3" target="3_ii5RLycROyvTj4CnVb-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="270" as="sourcePoint" />
+            <mxPoint x="150" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_ii5RLycROyvTj4CnVb-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.456;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3_ii5RLycROyvTj4CnVb-15" target="3_ii5RLycROyvTj4CnVb-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="115" y="400" as="sourcePoint" />
+            <mxPoint x="150" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
