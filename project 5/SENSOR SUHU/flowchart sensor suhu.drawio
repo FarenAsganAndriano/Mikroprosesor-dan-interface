@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Page-1" id="cvQN6r6mUxV3Hpf2D97a">
+    <mxGraphModel dx="794" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pfJFm57IsoIZB0mXrJWg-1" value="Mulai" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="303" y="20" width="62" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="pfJFm57IsoIZB0mXrJWg-2" value="Inisialisasi Serial dan Pin LED" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="217" y="104" width="235" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="pfJFm57IsoIZB0mXrJWg-3" value="Membaca nilai dari LM35" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="215" y="220" width="237" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="pfJFm57IsoIZB0mXrJWg-4" value="Menghitung suhu dalam Celsius" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="33" y="319" width="229" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="pfJFm57IsoIZB0mXrJWg-5" value="Menampilkan suhu di Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="435" width="256" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="pfJFm57IsoIZB0mXrJWg-6" value="Suhu &gt; 35°C?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="66" y="551" width="165" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="pfJFm57IsoIZB0mXrJWg-7" value="Nyalakan LED Merah" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="127" y="788" width="204" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="pfJFm57IsoIZB0mXrJWg-8" value="Nyalakan LED Hijau" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="381" y="788" width="199" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="pfJFm57IsoIZB0mXrJWg-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="pfJFm57IsoIZB0mXrJWg-1" target="pfJFm57IsoIZB0mXrJWg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfJFm57IsoIZB0mXrJWg-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="pfJFm57IsoIZB0mXrJWg-2" target="pfJFm57IsoIZB0mXrJWg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfJFm57IsoIZB0mXrJWg-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.11;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="pfJFm57IsoIZB0mXrJWg-3" target="pfJFm57IsoIZB0mXrJWg-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="148" y="294" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfJFm57IsoIZB0mXrJWg-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="pfJFm57IsoIZB0mXrJWg-4" target="pfJFm57IsoIZB0mXrJWg-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfJFm57IsoIZB0mXrJWg-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="pfJFm57IsoIZB0mXrJWg-5" target="pfJFm57IsoIZB0mXrJWg-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfJFm57IsoIZB0mXrJWg-14" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.34;entryY=0.01;rounded=0;" edge="1" parent="1" source="pfJFm57IsoIZB0mXrJWg-6" target="pfJFm57IsoIZB0mXrJWg-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="148" y="752" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfJFm57IsoIZB0mXrJWg-15" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.76;entryX=0.29;entryY=0.01;rounded=0;" edge="1" parent="1" source="pfJFm57IsoIZB0mXrJWg-6" target="pfJFm57IsoIZB0mXrJWg-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="376" y="752" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfJFm57IsoIZB0mXrJWg-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.71;exitY=0.01;entryX=0.5;entryY=0.99;rounded=0;" edge="1" parent="1" source="pfJFm57IsoIZB0mXrJWg-7" target="pfJFm57IsoIZB0mXrJWg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="334" y="752" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfJFm57IsoIZB0mXrJWg-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.54;exitY=0.01;entryX=0.85;entryY=0.99;rounded=0;" edge="1" parent="1" source="pfJFm57IsoIZB0mXrJWg-8" target="pfJFm57IsoIZB0mXrJWg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="502" y="752" />
+              <mxPoint x="502" y="294" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
