@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Page-1" id="BCUzBErVvswl6ao92SY0">
+    <mxGraphModel dx="794" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vira3UWUs_3HRZFKldAi-1" value="Callback onDataRecv" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="268" y="975" width="316" height="581" as="geometry" />
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-2" value="Mulai" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="254" y="20" width="62" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-3" value="Inisialisasi Serial pada baud rate 9600" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="156" y="104" width="257" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-4" value="Set WiFi mode ke Station" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="165" y="220" width="240" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-5" value="Apakah inisialisasi ESP-NOW berhasil?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="151" y="319" width="267" height="267" as="geometry" />
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-6" value="Menampilkan pesan Gagal menginisialisasi ESP-NOW" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="658" width="246" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-7" value="Berhenti" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="101" y="791" width="85" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-8" value="Set ESP ke peran slave" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="316" y="667" width="221" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-9" value="Registrasi callback onDataRecv" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="775" width="193" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-10" value="Loop tanpa operasi" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="346" y="891" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-11" value="Data diterima dari alamat MAC pengirim" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="303" y="1000" width="246" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-12" value="Mencetak alamat MAC pengirim di Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="303" y="1116" width="246" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-13" value="Menyalin data yang diterima ke buffer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="327" y="1232" width="199" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-14" value="Menambahkan null terminator ke pesan" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="324" y="1348" width="205" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-15" value="Menampilkan pesan di Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="317" y="1465" width="219" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Vira3UWUs_3HRZFKldAi-2" target="Vira3UWUs_3HRZFKldAi-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Vira3UWUs_3HRZFKldAi-3" target="Vira3UWUs_3HRZFKldAi-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Vira3UWUs_3HRZFKldAi-4" target="Vira3UWUs_3HRZFKldAi-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-19" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=0.08;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="Vira3UWUs_3HRZFKldAi-5" target="Vira3UWUs_3HRZFKldAi-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="143" y="622" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="Vira3UWUs_3HRZFKldAi-6" target="Vira3UWUs_3HRZFKldAi-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-21" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.92;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Vira3UWUs_3HRZFKldAi-5" target="Vira3UWUs_3HRZFKldAi-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="426" y="622" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Vira3UWUs_3HRZFKldAi-8" target="Vira3UWUs_3HRZFKldAi-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Vira3UWUs_3HRZFKldAi-9" target="Vira3UWUs_3HRZFKldAi-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Vira3UWUs_3HRZFKldAi-11" target="Vira3UWUs_3HRZFKldAi-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Vira3UWUs_3HRZFKldAi-12" target="Vira3UWUs_3HRZFKldAi-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="Vira3UWUs_3HRZFKldAi-13" target="Vira3UWUs_3HRZFKldAi-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Vira3UWUs_3HRZFKldAi-14" target="Vira3UWUs_3HRZFKldAi-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vira3UWUs_3HRZFKldAi-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Vira3UWUs_3HRZFKldAi-10" target="Vira3UWUs_3HRZFKldAi-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
